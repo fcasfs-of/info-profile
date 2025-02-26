@@ -69,7 +69,8 @@ header {
   align-items: center;
   padding-bottom: 60px;
 }
-.navbar .name{   margin-bottom:6px;}
+
+.container #home .navbar .name{   margin-bottom:6px;  }
 
 .navbar__ul {
   display: flex;

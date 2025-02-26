@@ -1,20 +1,16 @@
 
 
-img{  pointer-events:none;  margin-bottom:4px;  }
-p{  user-select:none; }
-
-
-.btn {
+p .btn {
   background-color: DodgerBlue;
   border: none;
   color: white;
   padding: 12px 30px;
   cursor: pointer;
-  font-size: 20px;text-decoration:none;
+  font-size: 20px;  text-decoration:none;
 }
 
 /* Darker background on mouse-over */
-.btn:hover {
+p .btn:hover {
   background-color: RoyalBlue;
 }
 
@@ -489,6 +485,13 @@ button[class="darkmode"] {
 }
 
 
+
+
+
+
+
+img{  pointer-events:none;  margin-bottom:4px;  }
+p{  user-select:none; }
 
 
 

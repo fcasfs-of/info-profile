@@ -28,7 +28,7 @@ p .btn:hover {
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0;user-select:none;
   scroll-behavior: smooth;
 }
 
@@ -204,13 +204,13 @@ footer h2 {
 }
 
 .skills__item img:hover {
-  transform: scale(1.1);
+  transform: scale(1.1); 
   transition: ease-out 0.3s;
 }
 
 .skills img {
   max-width: 80px;
-  margin-bottom: -5px;
+  margin-bottom: 2px;  
 }
 
 /* Footer --------------------------------- */
@@ -488,9 +488,6 @@ button[class="darkmode"] {
 
 
 
-
-img{  pointer-events:none;  padding-bottom:4px;  }
-p{  user-select:none; }
 
 
 

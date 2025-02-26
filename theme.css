@@ -10,7 +10,7 @@
 
 
 
-p .btn {
+.btn {
   background-color: DodgerBlue;
   border: none;
   color: white;
@@ -20,7 +20,7 @@ p .btn {
 }
 
 /* Darker background on mouse-over */
-p .btn:hover {
+.btn:hover {
   background-color: RoyalBlue;
 }
 

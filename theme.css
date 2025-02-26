@@ -6,13 +6,14 @@
   color: white;
   padding: 12px 30px;
   cursor: pointer;
-  font-size: 20px;text-decotation:none;
+  font-size: 20px;text-decoration:none;
 }
 
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: RoyalBlue;
 }
+
 
 
 :root {

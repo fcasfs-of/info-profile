@@ -47,7 +47,7 @@ p .btn:hover {
 body {
   font-family: "Hind Madurai", sans-serif;
   margin: 0 auto;
-  overflow-x: hidden;
+  overflow-x: hidden; transition: all 0.2s linear;
 }
 
 .wrapper {

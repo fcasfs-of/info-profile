@@ -41,13 +41,13 @@ p .btn:hover {
   padding: 0;user-select:none;
   scroll-behavior: smooth; 
  
- transition: all 0.2s linear;
+ transition: all .1s linear;
 }
 
 body {
   font-family: "Hind Madurai", sans-serif;
   margin: 0 auto;
-  overflow-x: hidden; transition: all 0.2s linear;
+  overflow-x: hidden; transition: all .1s linear;
 }
 
 .wrapper {

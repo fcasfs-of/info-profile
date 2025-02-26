@@ -105,9 +105,9 @@ footer h2 {
   text-transform: uppercase;
 }
 
-.navbar__ul .link, .footer__nav-links li{ border-bottom: 0px; }
-.navbar__ul .link:hover, .footer__nav-links li:hover{ border-bottom: 2px solid #000; }
-
+.navbar__ul .link, .footer__nav-links li, .to-top{ border-bottom: 0px; }
+.navbar__ul .link:hover, .footer__nav-links li:hover, .to-top:hover{ border-bottom: 2px solid #000; }
+.darkmode .navbar__ul .link:hover, .darkmode .footer__nav-links li:hover, .darkmode .to-top:hover{ border-bottom: 2px solid #fff; }
 
 .header__container {
   display: flex;

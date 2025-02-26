@@ -105,8 +105,8 @@ footer h2 {
   text-transform: uppercase;
 }
 
-.navbar__ul li{ border-bottom: 0px; }
-.navbar__ul li:hover{ border-bottom: 2px solid #000; }
+.navbar__ul li link{ border-bottom: 0px; }
+.navbar__ul li:hover .link{ border-bottom: 2px solid #000; }
 
 
 .header__container {

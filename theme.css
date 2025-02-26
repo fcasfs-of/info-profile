@@ -209,6 +209,16 @@ footer h2 {
   font-size: 2rem;
 }
 
+.skills h3 {
+ border-left: 4px solid #000;
+    padding-left: 4px;
+}
+.darkmode .wrapper .skills h3 {
+ border-left: 4px solid #fff;
+    padding-left: 4px;
+}
+
+
 .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -201,7 +201,6 @@ footer h2 {
 
 .skills__item {
   margin-bottom: 1rem;
- 
 }
 
 .skills__item img:hover {
@@ -490,7 +489,7 @@ button[class="darkmode"] {
 
 
 
-img{  pointer-events:none;  margin-bottom:4px;  }
+img{  pointer-events:none;  padding-bottom:4px;  }
 p{  user-select:none; }
 
 

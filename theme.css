@@ -39,7 +39,9 @@ p .btn:hover {
   box-sizing: border-box;
   margin: 0;
   padding: 0;user-select:none;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; 
+ 
+ transition: all 0.2s linear;
 }
 
 body {

@@ -1,5 +1,9 @@
 
 
+img{  pointer-events:none;  }
+p{  user-select:none; }
+
+
 .btn {
   background-color: DodgerBlue;
   border: none;
@@ -201,7 +205,7 @@ footer h2 {
 
 .skills__item {
   margin-bottom: 1rem;
-  cursor: pointer;
+ 
 }
 
 .skills__item img:hover {

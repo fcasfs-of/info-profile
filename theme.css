@@ -80,7 +80,7 @@ header {
 }
 
 .navbar__ul .name {
-  font-size: 23px;
+  font-size: 23px;  margin-bottom:6px;
   font-weight: 600;
 }
 

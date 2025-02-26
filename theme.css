@@ -69,6 +69,7 @@ header {
   align-items: center;
   padding-bottom: 60px;
 }
+.navbar .name{   margin-bottom:6px;}
 
 .navbar__ul {
   display: flex;
@@ -80,7 +81,7 @@ header {
 }
 
 .navbar__ul .name {
-  font-size: 23px;  margin-bottom:6px;
+  font-size: 23px; 
   font-weight: 600;
 }
 

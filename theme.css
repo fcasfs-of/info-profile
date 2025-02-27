@@ -473,7 +473,7 @@ button[class="darkmode"] {
   width: 30px;
   height: 30px;
   cursor: pointer;
-  background-color: white;
+  background-color: #111;
   border: 1px solid rgb(43, 43, 43);
   border-radius: 50%;
 }

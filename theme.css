@@ -32,6 +32,7 @@
   --font-main: "Montserrat", sans-serif;
   --clr-dark-gray: #262626;
   --clr-dark-black: #333;
+  --clr-dark2-black: #111;
   --clr-dark-text: rgb(226, 225, 225);
 }
 
@@ -478,7 +479,7 @@ button[class="darkmode"] {
 }
 
 .darkmode .portfolio {
-  background-color: var(--clr-dark-black);
+  background-color: var(--clr-dark2-black);
   color: var(--clr-dark-text);
 }
 

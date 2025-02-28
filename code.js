@@ -8,12 +8,7 @@ var menu_links = document.querySelector(".link");
 tabcontent[id].onclick = function(){   menu_links[id].getElementsByTagName("a")[0].click();    };
    }
   }
-for (idd = 0; idd < menu_lifnks.length; idd++) {
-   if(menu_lifnks[idd].getElementsByTagName("a")[0]){
-    menu_lifnks[idd].style.cursor = "pointer";
-menu_lifnks[idd].onclick = function(){   menu_lifnks[idd].getElementsByTagName("a")[0].click();    };
-   }
-  }
+//for (idd = 0; idd < menu_lifnks.length; idd++) {   if(menu_lifnks[idd].getElementsByTagName("a")[0]){    menu_lifnks[idd].style.cursor = "pointer";menu_lifnks[idd].onclick = function(){   menu_lifnks[idd].getElementsByTagName("a")[0].click();    };   }  }
 
 
 btn.addEventListener("click", () => {

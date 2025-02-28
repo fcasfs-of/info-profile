@@ -1,7 +1,10 @@
 let btn = document.querySelector(".darkmode");
 
+
+let htr_list= document.querySelector(".navbar__ul");
+
 let menu_lifnks = document.getElementsByClassName("zlink");
-let menu_links = document.getElementsByClassName("link");
+let menu_links = htr_list.getElementsByClassName("link");
  for (id = 0; id < menu_links.length; id++) {
    if(menu_links[id].getElementsByTagName("a")[0]){
     tabcontent[id].style.cursor = "pointer";

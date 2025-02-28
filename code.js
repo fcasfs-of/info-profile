@@ -1,10 +1,17 @@
 let btn = document.querySelector(".cbtn > .darkmode");
 
-//const menu_lifnks = document.getElementsByClassName("zlink");
-let mfenu_links = document.querySelector(".navbar > .navbar__ul");
-let menu_links=mfenu_links.querySelector(".link");
- for (id = 0; id < menu_links.length; id++) {   if(menu_links[id].getElementsByTagName("a")[0]){    tabcontent[id].style.cursor = "pointer";tabcontent[id].onclick = function(){   menu_links[id].getElementsByTagName("a")[0].click();    };   }  }
-//for (idd = 0; idd < menu_lifnks.length; idd++) {   if(menu_lifnks[idd].getElementsByTagName("a")[0]){    menu_lifnks[idd].style.cursor = "pointer";menu_lifnks[idd].onclick = function(){   menu_lifnks[idd].getElementsByTagName("a")[0].click();    };   }  }
+
+let myNodelist = document.getElementsByTagName("LI");
+var is;
+for (is = 0; is < myNodelist.length; is++) {
+ 
+if(myNodelist[is].classList=="link"){
+ if(myNodelist[is].getElementsByTagName("a")[0]){    myNodelist[is].style.cursor = "pointer";  myNodelist[is].onclick = function(){   myNodelist[is].getElementsByTagName("a")[0].click();    };   } 
+}
+ 
+}
+//for (idd = 0; idd < menu_lifnks.length; idd++) {  
+ }
 
 
 btn.addEventListener("click", () => {

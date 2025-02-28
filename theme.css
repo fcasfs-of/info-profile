@@ -109,9 +109,11 @@ footer h2 {
 }
 
 
-.navbar__ul .link, .footer__nav-links li, .to-top a{ border-bottom: 0px; }
-.navbar__ul .link:hover, .footer__nav-links li:hover, .to-top a:hover{ border-bottom: 2px solid #000; }
-.darkmode .wrapper .navbar__ul .link:hover, .darkmode .wrapper .footer__nav-links li:hover, .darkmode .wrapper .to-top a:hover{ border-bottom: 2px solid #fff; }
+.navbar__ul .cbtn, ..navbar__ul .link, .footer__nav-links li, .to-top a{ border-bottom: 0px; }
+ .wrapper .navbar__ul .cbtn button {    }
+.navbar__ul .cbtn:hover, .navbar__ul .link:hover, .footer__nav-links li:hover, .to-top a:hover{ font-weight:bold;  border-bottom: 2px solid #000; }
+.darkmode .wrapper .navbar__ul .cbtn:hover, .darkmode .wrapper .navbar__ul .link:hover, .darkmode .wrapper .footer__nav-links li:hover, .darkmode .wrapper .to-top a:hover{  font-weight:bold;   border-bottom: 2px solid #fff; }
+.darkmode .wrapper .navbar__ul .cbtn:hover button, .wrapper .navbar__ul .cbtn:hover button {    }
 
 
 .header__container {

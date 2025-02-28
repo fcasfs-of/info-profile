@@ -1,4 +1,4 @@
-let btn = document.querySelector(".cbtn > .darkmode");
+let btn = document.querySelector(".darkmode");
 
 btn.addEventListener("click", () => {
   if (btn.innerHTML === `<i class="fas fa-moon"></i>`) {
@@ -16,7 +16,7 @@ btn.addEventListener("click", () => {
 
 
 
-var myNodeflist = document.querySelector("ul");
+var myNodeflist = document.getElementsByTagName("UL");
 for (var ids = 0; ids < myNodeflist.length; ids++) {
 var myNodelist = myNodeflist[ids].getElementsByTagName("LI");
 var is;

@@ -1,7 +1,7 @@
-let btn = document.querySelector(".darkmode");
+let btn = document.querySelectorAll(".darkmode");
 
-let menu_lifnks = document.querySelector("footer .footer__nav .footer__nav-links .zlink");
-let menu_links = document.querySelector("#home .navbar .navbar__ul .link");
+let menu_lifnks = document.querySelectorAll(".zlink");
+let menu_links = document.querySelectorAll(".link");
  for (id = 0; id < menu_links.length; id++) {
    if(menu_links[id].getElementsByTagName("a")[0]){
     tabcontent[id].style.cursor = "pointer";

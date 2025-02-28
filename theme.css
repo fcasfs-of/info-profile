@@ -535,5 +535,8 @@ button[class="darkmode"] {
 * img{  pointer-events:none;  }
 
 
+.darkmode{  pointer-events:none;   }
+
+
 
 

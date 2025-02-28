@@ -1,4 +1,4 @@
-let btn = document.querySelector(".darkmode");
+var btn = document.querySelector(".darkmode");
 
 btn.addEventListener("click", () => {
   if (btn.innerHTML === `<i class="fas fa-moon"></i>`) {

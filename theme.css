@@ -212,10 +212,11 @@ footer h2 {
   font-size: 2rem;
 }
 
-.skills h3 {
+.skillsih3 {
  border-left: 4px solid #000;
     padding-left: 8px;
 }
+
 .darkmode .wrapper .skills h3 {
  border-left: 4px solid #fff;
     padding-left: 8px;

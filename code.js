@@ -1,6 +1,4 @@
-var btn = document.querySelector(".darkmode");
-
-btn.addEventListener("click", () => {
+document.getElementsById("btn_tgg_mf").getElementsByClassName("cbtn").addEventListener("click", () => {
   if (btn.innerHTML === `<i class="fas fa-moon"></i>`) {
     btn.innerHTML = `<i class="fas fa-sun"></i>`;
     btn.style.color = "#000";

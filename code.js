@@ -1,5 +1,13 @@
 let btn = document.querySelector(".darkmode");
 
+let menu_links = document.getElementsByClassName("links");
+ for (id = 0; id < menu_links.length; id++) {
+   if(menu_links[id].getElementsByTagName("li")[0]){
+    tabcontent[id].style.cursor = "pointer";
+tabcontent[id].addEventListener("click", function(){   menu_links[id].getElementsByTagName("li")[0].click();    });
+   }
+  }
+
 btn.addEventListener("click", () => {
   if (btn.innerHTML === `<i class="fas fa-moon"></i>`) {
     btn.innerHTML = `<i class="fas fa-sun"></i>`;

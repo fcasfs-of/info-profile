@@ -17,7 +17,7 @@ else if(myNodelist[is].classList=="cbtn"){
 }
   
 else if(myNodelist[is].classList=="zlink"){
- if(myNodelist[is].getElementsByTagName("button")[0]){     myNodelist[is].style.cursor = "pointer";  myNodelist[is].onclick = function(){    this.getElementsByTagName("button")[0].click();   };   } 
+ if(myNodelist[is].getElementsByTagName("a")[0]){     myNodelist[is].style.cursor = "pointer";  myNodelist[is].onclick = function(){    this.getElementsByTagName("a")[0].click();   };   } 
 }
   
 }

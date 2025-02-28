@@ -1,6 +1,6 @@
 let btn = document.querySelector(".cbtn > .darkmode");
 
-let menu_lifnks = document.querySelector("#portfolio > footer > nav > ul > li");
+let menu_lifnks = document.getElementsByClassName("zlink");
 let menu_links = document.querySelector("#home > nav > ul > li");
  for (id = 0; id < menu_links.length; id++) {   if(menu_links[id].getElementsByTagName("a")[0]){    tabcontent[id].style.cursor = "pointer";tabcontent[id].onclick = function(){   menu_links[id].getElementsByTagName("a")[0].click();    };   }  }
 for (idd = 0; idd < menu_lifnks.length; idd++) {   if(menu_lifnks[idd].getElementsByTagName("a")[0]){    menu_lifnks[idd].style.cursor = "pointer";menu_lifnks[idd].onclick = function(){   menu_lifnks[idd].getElementsByTagName("a")[0].click();    };   }  }

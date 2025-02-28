@@ -10,8 +10,7 @@ if(myNodelist[is].classList=="link"){
 }
  
 }
-//for (idd = 0; idd < menu_lifnks.length; idd++) {  
- }
+
 
 
 btn.addEventListener("click", () => {

@@ -1,7 +1,7 @@
 let btn = document.querySelector(".cbtn > .darkmode");
 
 //const menu_lifnks = document.getElementsByClassName("zlink");
-let mfenu_links = document.querySelectorAll(".navbar .navbar__ul");
+let mfenu_links = document.querySelector(".navbar > .navbar__ul");
 let menu_links=mfenu_links.querySelector(".link");
  for (id = 0; id < menu_links.length; id++) {   if(menu_links[id].getElementsByTagName("a")[0]){    tabcontent[id].style.cursor = "pointer";tabcontent[id].onclick = function(){   menu_links[id].getElementsByTagName("a")[0].click();    };   }  }
 //for (idd = 0; idd < menu_lifnks.length; idd++) {   if(menu_lifnks[idd].getElementsByTagName("a")[0]){    menu_lifnks[idd].style.cursor = "pointer";menu_lifnks[idd].onclick = function(){   menu_lifnks[idd].getElementsByTagName("a")[0].click();    };   }  }

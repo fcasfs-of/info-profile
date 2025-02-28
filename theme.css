@@ -230,6 +230,11 @@ footer h2 {
   text-align: center;
 }
 
+.skills-container.dnot{
+ opacity:0.7;
+}
+
+
 .skills__item {
   margin-bottom: 1rem;
 }

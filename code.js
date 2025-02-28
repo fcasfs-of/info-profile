@@ -1,4 +1,4 @@
-  function mode_chanhe(btn) => {
+  function mode_chanhe(btn) {
   if (btn.innerHTML === `<i class="fas fa-moon"></i>`) {
     btn.innerHTML = `<i class="fas fa-sun"></i>`;
     btn.style.color = "#000";

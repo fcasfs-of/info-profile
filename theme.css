@@ -239,7 +239,7 @@ footer h2 {
   margin-bottom: 1rem;
 }
 
-.skills__item .dnot{
+.skills__item.dnot{
  opacity:0.7;
 }
 

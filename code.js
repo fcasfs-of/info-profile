@@ -1,4 +1,4 @@
-let btn = document.querySelector(".cbtn .darkmode");
+let btn = document.querySelector(".cbtn > .darkmode");
 
 //let menu_lifnks = document.querySelector(".zlink");
 //let menu_links = document.querySelector(".link");

@@ -1,7 +1,7 @@
 let btn = document.querySelector(".darkmode");
 
-let menu_lifnks = document.querySelectorAll(".zlink");
-let menu_links = document.querySelectorAll(".link");
+var menu_lifnks = document.querySelector(".zlink");
+var menu_links = document.querySelector(".link");
  for (id = 0; id < menu_links.length; id++) {
    if(menu_links[id].getElementsByTagName("a")[0]){
     tabcontent[id].style.cursor = "pointer";

@@ -1,7 +1,7 @@
 let btn = document.querySelector(".cbtn > .darkmode");
 
 
-let myNodelist = document.getElementsByTagName("LI");
+var myNodelist = document.getElementsByTagName("LI");
 var is;
 for (is = 0; is < myNodelist.length; is++) {
  

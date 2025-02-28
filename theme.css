@@ -239,6 +239,11 @@ footer h2 {
   margin-bottom: 1rem;
 }
 
+.skills__item .dnot{
+ opacity:0.7;
+}
+
+
 .skills__item img:hover {
   transform: scale(1.1); 
   transition: ease-out 0.3s;

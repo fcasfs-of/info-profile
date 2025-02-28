@@ -11,6 +11,31 @@
 .mode_fd .skills {  width:80%;  }
 .mode_fd .skills .skills-container{ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;  };
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mode_fd .skills {  width:50%;  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ .mode_fd .skills {  width:60%;  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ .mode_fd .skills {  width:70%;  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ .mode_fd .skills {  width:80%;  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   .mode_fd .skills {  width:90%;  }
+}
+
 
 
 

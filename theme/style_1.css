@@ -8,6 +8,8 @@
 }
 
 
+
+
 .mode_fd .skills {  width:85%;  }
 .mode_fd .skills .skills-container{ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;  };
 

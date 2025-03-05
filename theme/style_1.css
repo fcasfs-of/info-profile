@@ -123,6 +123,11 @@ header {
   padding-bottom: 5px;
 }
 
+.darkmode .navbar__ul li {
+  background: rgba(235, 230, 230, 0.3);
+}
+
+
 .link,
 .portfolio__header,
 footer h2 {

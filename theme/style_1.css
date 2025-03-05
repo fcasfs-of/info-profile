@@ -534,8 +534,6 @@ button[class="darkmode"] {
 
 .darkmode .navbar__ul li {
   color: var(--clr-dark-text);
-}
-.darkmode .navbar__ul li.cbtn {
    background-color: transparent;
 }
 

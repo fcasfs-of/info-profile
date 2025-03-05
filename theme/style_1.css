@@ -558,7 +558,7 @@ button[class="darkmode"] {
 
 .cbtn button.darkmode, .cbtn button[class="darkmode"]{  pointer-events:none;   }
 
-.email a, .email strong a{  text-decoration:none;  }
+.btn_phone a, .btn_email a{  text-decoration:none;  }
 
 
 

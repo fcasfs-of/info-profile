@@ -123,7 +123,7 @@ header {
   padding-bottom: 5px;
 }
 
-.darkmode .navbar__ul li {
+.darkmode .navbar .navbar__ul li {
   background: rgba(0, 0, 0, 0.3);
 }
 

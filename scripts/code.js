@@ -27,8 +27,8 @@ else if(myNodelist[is].classList=="zlink"){
 
 
 
-if (localStorage.getItem("ldark")=="yes"){  
-  const changedark = document.getElementsById("btndk");
+if (localStorage.getItem("ldark")=="yes"){  alert(5);
+  var changedark = document.getElementsById("btndk");
   if(changedark){   mode_chanhe(changedark);  }
 }
 

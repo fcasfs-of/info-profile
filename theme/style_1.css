@@ -263,7 +263,7 @@ footer h2 {
  opacity:0.7;
 }
 
-.dnot img{  opacity:0.6;  }
+.dnot img, .dnot p{  opacity:0.7;  }
 
 
 .skills__item {

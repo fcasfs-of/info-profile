@@ -1,4 +1,11 @@
 
+
+function mchangelag(nn) {
+if(nn){  location.href=nn;  }
+}
+
+
+
   function mode_chanhe(btn) {
   if (btn.innerHTML === `<i class="fas fa-moon"></i>`) {
     btn.innerHTML = `<i class="fas fa-sun"></i>`;

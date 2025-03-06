@@ -1,10 +1,13 @@
 
 
+ var changedark = document.getElementsById("btndk");
+  if(changedark){  
+setmode_chanhe(changedark,"no");
 if (localStorage.getItem("ldark")=="yes"){  
-  var changedark = document.getElementsById("btndk");
-  if(changedark){   changedark.click();  }
+  setmode_chanhe(changedark,"yes");
 }
 
+}
 
 
 

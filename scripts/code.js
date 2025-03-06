@@ -2,7 +2,7 @@
 
 if (localStorage.getItem("ldark")=="yes"){  
   var changedark = document.getElementsById("btndk");
-  if(changedark){   mode_chanhe(changedark);  }
+  if(changedark){   changedark.click();  }
 }
 
 

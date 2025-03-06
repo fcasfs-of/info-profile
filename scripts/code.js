@@ -28,7 +28,7 @@ else if(myNodelist[is].classList=="zlink"){
 
 if (localStorage.getItem("ldark")!="" && localStorage.getItem("ldark")!=null){
 if (localStorage.getItem("ldark")=="yes"){
-  const changedark = document.getElementsByClassName("btndk");
+  const changedark = document.getElementsById("btndk");
   if(changedark){   changedark.click();  }
 }
 }

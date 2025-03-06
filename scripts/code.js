@@ -25,3 +25,14 @@ else if(myNodelist[is].classList=="zlink"){
 
 
 
+
+if (localStorage.getItem("ldark")!="" && localStorage.getItem("ldark")!=null){
+if (localStorage.getItem("ldark")=="yes"){
+  
+}
+}
+
+
+
+
+

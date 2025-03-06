@@ -1,5 +1,13 @@
 
 
+if (localStorage.getItem("ldark")=="yes"){  
+  var changedark = document.getElementsById("btndk");
+  if(changedark){   mode_chanhe(changedark);  }
+}
+
+
+
+
 var myNodeflist = document.getElementsByTagName("UL");
 for (var ids = 0; ids < myNodeflist.length; ids++) {
 var myNodelist = myNodeflist[ids].getElementsByTagName("LI");
@@ -21,15 +29,6 @@ else if(myNodelist[is].classList=="zlink"){
 }
   
 }
-}
-
-
-
-
-
-if (localStorage.getItem("ldark")=="yes"){  alert(5);
-  var changedark = document.getElementsById("btndk");
-  if(changedark){   mode_chanhe(changedark);  }
 }
 
 

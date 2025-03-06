@@ -17,7 +17,7 @@
 
 
 function setmode_chanhe(btn,nn) {
-  if (nn === `yes`) {
+  if (nn == "yes") {
     btn.innerHTML = `<i class="fas fa-sun"></i>`;
     btn.style.color = "#000";
     btn.style.backgroundColor = "#fff";

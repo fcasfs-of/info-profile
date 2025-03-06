@@ -1,16 +1,5 @@
 
 
- var changedark = document.getElementsById("btndk");
-  if(changedark){  
-setmode_chanhe(changedark,"no");
-if (localStorage.getItem("ldark")=="yes"){  
-  setmode_chanhe(changedark,"yes");
-}
-
-}
-
-
-
 var myNodeflist = document.getElementsByTagName("UL");
 for (var ids = 0; ids < myNodeflist.length; ids++) {
 var myNodelist = myNodeflist[ids].getElementsByTagName("LI");
@@ -31,6 +20,19 @@ else if(myNodelist[is].classList=="zlink"){
  if(myNodelist[is].getElementsByTagName("a")[0]){     myNodelist[is].style.cursor = "pointer";  myNodelist[is].onclick = function(){    this.getElementsByTagName("a")[0].click();   };   } 
 }
   
+}
+}
+
+
+
+
+
+
+ var changedark = document.getElementsById("btndk");
+  if(changedark){  
+setmode_chanhe(changedark,"no");
+if (localStorage.getItem("ldark")=="yes"){  
+  setmode_chanhe(changedark,"yes");
 }
 }
 

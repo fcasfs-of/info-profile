@@ -1,8 +1,7 @@
 
   
-  [data-tooltip] {
-  position: relative;
-
+[data-tooltip] {
+position: relative;
 }
 [data-tooltip]::before,
 [data-tooltip]::after {
@@ -120,6 +119,16 @@
 [data-tooltip][data-flow^="right"]:hover::after {
   animation: tooltip-horz .5s ease-out forwards;
 }
+
+
+.darkmode [data-tooltip]::after {
+   background: #FFFFFF;
+  color: #333333;
+}
+.darkmode [data-tooltip][data-flow^="top"]::before {  border-top-color: #FFFFFF; }
+.darkmode [data-tooltip][data-flow^="bottom"]::before { border-bottom-color: #FFFFFF; }
+.darkmode [data-tooltip][data-flow^="left"]::before { border-left-color: #FFFFFF; }
+.darkmode [data-tooltip][data-flow^="right"]::before {  border-right-color: #FFFFFF; }
 
   
 

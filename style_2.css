@@ -19,3 +19,7 @@
 
  
  
+.modal .ssclose .icon:before {
+  content: url("icons/close.png");
+}
+

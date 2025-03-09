@@ -19,7 +19,7 @@
 
  
  
-.modal .ssclose .icon::before {  display:block;  position:relative;  top:-16px;  
+.modal .ssclose .icon::before {  display:block;  position:absolute;  top:1px;  
   content: url("icons/close.png");
 }
 

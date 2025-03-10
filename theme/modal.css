@@ -155,35 +155,35 @@
 
 
 /* Chrome, Edge and Safari */
-.modal::-webkit-scrollbar {
+::-webkit-scrollbar,.modal::-webkit-scrollbar {
   height: 12px;
   width: 12px;
 }
-.modal::-webkit-scrollbar-track {
+::-webkit-scrollbar-track,.modal::-webkit-scrollbar-track {
   border-radius: 3px;
   background-color: #DFE9EB;
   border: 1px solid #FFFFFF;
 }
 
-.modal::-webkit-scrollbar-track:hover {
+::-webkit-scrollbar-track:hover,.modal::-webkit-scrollbar-track:hover {
   background-color: #B8C0C2;
 }
 
-.modal::-webkit-scrollbar-track:active {
+::-webkit-scrollbar-track:active,.modal::-webkit-scrollbar-track:active {
   background-color: #B8C0C2;
 }
 
-.modal::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb,.modal::-webkit-scrollbar-thumb {
   border-radius: 8px;
   background-color: #170C75;
   border: 1px solid #FFFFFF;
 }
 
-.modal::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover,.modal::-webkit-scrollbar-thumb:hover {
   background-color: #4747A3;
 }
 
-.modal::-webkit-scrollbar-thumb:active {
+::-webkit-scrollbar-thumb:active,.modal::-webkit-scrollbar-thumb:active {
   background-color: #065FA3;
 }
 

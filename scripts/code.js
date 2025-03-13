@@ -39,4 +39,11 @@ if (localStorage.getItem("ldark")=="yes"){
 
 
 
+ var playev = document.getElementById("preview_pls");
+  if(playev){  
+playev.oncontextmenu=function(){  return false;  };
+}
+
+
+
 

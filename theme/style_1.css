@@ -255,10 +255,13 @@ footer h2 {
     padding-bottom: 8px;
 }
 
-
 .darkmode .wrapper .skillsih3 {
  border-left: 4px solid #fff;
     padding-left: 8px;
+}
+.darkmode .wrapper .skillsih2 {
+ border-bottom: 4px solid #fff;
+    padding-bottom: 8px;
 }
 
 

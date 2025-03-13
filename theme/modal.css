@@ -4,7 +4,7 @@
 .modal { user-select:none;   
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 100; /* Sit on top */
+  z-index: 1; /* Sit on top */
   padding-bottom: 10px;padding-top: 100px; /* Location of the box */
   left: 0;transition: 0.3s;
   top: 0;
@@ -20,7 +20,7 @@
   margin: auto;  //position :relative;
   display: block;
   width: 100%;  //height:100%;
-  transition: 0.3s;z-index:101;
+  transition: 0.3s;
 }
   .modal .modal-content .cdof {
   margin: auto;

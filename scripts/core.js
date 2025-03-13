@@ -4,6 +4,10 @@
 
 
 
+function pl_dispNav(a) {  return document.getElementById(a);  } 
+
+
+
 function getUrlParameter(sParam) {  var dgetUrlParameterd="";
 
     var sPageURL = decodeURIComponent(location.href);//window.location.search.substring(1));

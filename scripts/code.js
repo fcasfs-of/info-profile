@@ -41,6 +41,9 @@ if (localStorage.getItem("ldark")=="yes"){
 
  var playev = document.getElementById("preview_pls");
   if(playev){  
+  var playdev = document.getElementById("oframepreview_pls");
+  if(playdev){   playdev.oncontextmenu=function(e){  e.preventDefault();   return false;  };
+  }
 playev.oncontextmenu=function(e){  e.preventDefault();   return false;  };
 }
 

@@ -58,7 +58,8 @@
           <p>O nosso player de áudio e vídeo oferece uma experiência de mídia envolvente e intuitiva, projetada para atender a todas as suas necessidades de entretenimento digital. <br/>Com um design moderno e funcional, ele permite que você reproduza, pause e controle suas faixas e vídeos favoritos com facilidade.</p>
           <br/><p><br/><a class="btn" href="https://player.fcasfs-of.cloud-fs.net/">Site</a></p>
         <p><br/><button class="btn" onclick="cmodal('Player de Vídeo e Áudio','https://player.fcasfs-of.cloud-fs.net/','Fechar','380','yes');">Visualizar</button></p>
-       </div>
+        <br/><div id="preview_pls"></div>
+        </div>
       </article>
 
 
@@ -413,7 +414,12 @@
   </main>
 </div>
   <div id="custimmdf"></div>
-  
+
+      <script>
+        var fplayeri = new Playerjs({vars:[], id:"preview_pls", nocontrols:0, autoplay:0, loop:0, title:"Intro 1", file:"https://fcasfs-of.cloud-fs.net/info-profile/files/intro1.mp4", poster:"https://fcasfs-of.cloud-fs.net/info-profile/files/intro1.jpg", player:1,"url":location.href  });    
+    </script>
+
+    
 <script src="scripts/code.js"></script>
   
 </body>

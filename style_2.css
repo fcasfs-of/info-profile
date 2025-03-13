@@ -23,3 +23,13 @@
   content: url("icons/close.png");
 }
 
+
+
+
+.iconmdpl::before {  display:block;  position:relative;
+  content: url("icons/project/mdpl.png");
+  }
+
+
+
+

@@ -28,8 +28,9 @@
 
 .iconmdpl::before {   position:relative;  margin-right:4px; 
   content: url("icons/project/mdpl_i.png");
-
- display: flex;    align-items: center;    flex-direction: row;    flex-wrap: wrap;    align-content: center;    justify-content: center;                      
+        }
+.iconmdpl {
+  display: flex;    align-items: center;    flex-direction: row;    flex-wrap: wrap;    align-content: center;    justify-content: center;                      
   }
 
 

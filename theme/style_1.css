@@ -245,10 +245,16 @@ footer h2 {
   font-size: 2rem;
 }
 
+
 .skillsih3 {
  border-left: 4px solid #000;
     padding-left: 8px;
 }
+.skillsih2 {
+ border-bottom: 4px solid #000;
+    padding-bottom: 8px;
+}
+
 
 .darkmode .wrapper .skillsih3 {
  border-left: 4px solid #fff;

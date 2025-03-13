@@ -4,7 +4,7 @@
 .modal { user-select:none;   
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 1001; /* Sit on top */
   padding-bottom: 10px;padding-top: 100px; /* Location of the box */
   left: 0;transition: 0.3s;
   top: 0;

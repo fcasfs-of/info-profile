@@ -6,7 +6,7 @@
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdown .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -17,7 +17,7 @@
   z-index: 1;
 }
 
-.dropdown-content button {
+.dropdown .dropdown-content button {
   color: black; cursor:pointer;
   padding: 12px 16px;
   text-decoration: none; overflow:auto;
@@ -25,9 +25,9 @@
   width:100%; border:0px;
 }
 
-.dropdown button:hover {background-color: #ddd;}
+.dropdown .dropdown button:hover {background-color: #ddd;}
 
-.show {display: block;}
+.dropdown .dropdown-content.show {display: block;}
 
 
 .nostr {   pointer-events:none;   }

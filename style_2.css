@@ -10,10 +10,10 @@
 
 
 
-.cbtn button[class="btnbr"] .fas::before{ display:block;  position:relative;  top:1px;  
+.cbtn button[class="btnbr"] .fas::before, .btnbr_fas::before{ display:block;  position:relative;  top:1px;  
   content: url("icons/br.png");
 }
-.cbtn button[class="btnen"] .fas::before{ display:block; position:relative; top:1px;  
+.cbtn button[class="btnen"] .fas::before,  .btnen_fas::before{ display:block; position:relative; top:1px;  
   content: url("icons/en.png");
 }
 

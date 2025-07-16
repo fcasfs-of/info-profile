@@ -2,7 +2,7 @@
 
 
  .navbar__ul .cbtn .dropdown-content {
-  display: none;  padding:2px;
+  display: none;  padding:2px;  margin-top:3px;
   position: relative;
   background-color: #f1f1f1;
   min-width: 160px;
@@ -20,11 +20,11 @@
   width:100%; border:0px;
 }
 
-.darkmode .navbar__ul .cbtn .dropdown-content button { color: #fff; backgrond:#111;  }
-
 .navbar__ul .cbtn .dropdown-content button:hover {background-color: #ddd;}
 
 .navbar__ul .cbtn .show, .show {display: block;}
+
+.darkmode .navbar__ul .cbtn .dropdown-content button { color: #fff; backgrond:#111;  }
 
 
 .nostr {   pointer-events:none;   }

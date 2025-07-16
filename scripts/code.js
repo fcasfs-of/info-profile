@@ -1,6 +1,7 @@
 
-function mylangs() {
-  document.getElementById("myDropdown").classList.toggle("show");
+function mylangs(id) {
+  var omylangsngh=document.getElementById(id);
+  omylangsngh.classList.toggle("show");
 }
 
 window.onclick = function(event) {

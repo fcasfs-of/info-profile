@@ -22,7 +22,8 @@
 
 .navbar__ul .cbtn .dropdown-content button:hover {color:#000;  background: #ddd;}
 
-.navbar__ul .cbtn .show, .show {display: block;}
+.navbar__ul .cbtn .show, .navbar__ul .show, .cbtn .show, .show {display: block;}
+
 
 .darkmode .navbar__ul .cbtn .dropdown-content button { color: #fff; background:#111;  }
 .darkmode .navbar__ul .cbtn .dropdown-content button:hover {color:#fff;  background: #333;}

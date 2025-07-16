@@ -1,4 +1,5 @@
 
+
 function mylangs(id) {
   var omylangsngh=document.getElementById(id);
   omylangsngh.classList.toggle("show");

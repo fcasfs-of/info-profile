@@ -1,4 +1,7 @@
 
+function mylangs() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {

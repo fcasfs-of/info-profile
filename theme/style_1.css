@@ -1,5 +1,35 @@
 
 
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black; cursor:pointer;
+  padding: 12px 16px;
+  text-decoration: none; overflow:auto;
+  display: block; text-align:center;
+  width:100%; border:0px;
+}
+
+.dropdown button:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
 .nostr {   pointer-events:none;   }
 
 .privacy-wall .btnBlau.adsrow, .adsrow  {    display: flex;    align-items: center;    flex-direction: row;    flex-wrap: wrap;    align-content: center;    justify-content: center;   }    .privacy-wall .btnBlau.adsrow svg, .adsrow svg {   margin-right:6px;   }

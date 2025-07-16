@@ -27,7 +27,7 @@
 
 .dropdown .dropdown button:hover {background-color: #ddd;}
 
-.dropdown .dropdown-content.show {display: block;}
+.dropdown .show {display: block;}
 
 
 .nostr {   pointer-events:none;   }

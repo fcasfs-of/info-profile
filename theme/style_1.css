@@ -11,13 +11,16 @@
   z-index: 1;
 }
 
+
  .navbar__ul .cbtn .dropdown-content button {
-  color: black; cursor:pointer;
-  padding: 12px 16px;
+  color: #000; cursor:pointer;
+  padding: 12px 16px; backgrond:#fff;
   text-decoration: none; overflow:auto;
   display: block; text-align:center;
   width:100%; border:0px;
 }
+
+.darkmode .navbar__ul .cbtn .dropdown-content button { color: #fff; backgrond:#111;  }
 
 .navbar__ul .cbtn .dropdown-content button:hover {background-color: #ddd;}
 

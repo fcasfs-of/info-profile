@@ -1,7 +1,7 @@
 
 
 
- .dropdown-content {
+ .navbar__ul .dropdown-content {
   display: none;  padding:2px;
   position: relative;
   background-color: #f1f1f1;
@@ -11,7 +11,7 @@
   z-index: 1;
 }
 
- .dropdown-content button {
+ .navbar__ul .dropdown-content button {
   color: black; cursor:pointer;
   padding: 12px 16px;
   text-decoration: none; overflow:auto;
@@ -19,7 +19,7 @@
   width:100%; border:0px;
 }
 
-.dropdown-content button:hover {background-color: #ddd;}
+.navbar__ul .dropdown-content button:hover {background-color: #ddd;}
 
 .show {display: block;}
 
@@ -169,7 +169,7 @@ footer h2 {
 }
 
 
-.navbar__ul .cbtn, ..navbar__ul .link, .footer__nav-links li, .to-top a{ border-bottom: 0px; }
+.navbar__ul .cbtn, .navbar__ul .link, .footer__nav-links li, .to-top a{ border-bottom: 0px; }
  .wrapper .navbar__ul .cbtn button {    }
 .navbar__ul .cbtn:hover, .navbar__ul .link:hover, .footer__nav-links li:hover, .to-top a:hover{ font-weight:bold;  border-bottom: 2px solid #000; }
 .darkmode .wrapper .navbar__ul .cbtn:hover, .darkmode .wrapper .navbar__ul .link:hover, .darkmode .wrapper .footer__nav-links li:hover, .darkmode .wrapper .to-top a:hover{  font-weight:bold;   border-bottom: 2px solid #fff; }

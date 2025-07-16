@@ -188,6 +188,12 @@ body::-webkit-scrollbar-thumb:active,.modal::-webkit-scrollbar-thumb:active {
 }
 
 
+body.darkmode::-webkit-scrollbar-track{
+  border: 1px solid #333;
+}
+body.darkmode::-webkit-scrollbar-thumb{
+    border: 1px solid #000;
+}
 
 
 

@@ -21,7 +21,7 @@
 
 .navbar__ul .cbtn .dropdown-content button:hover {background-color: #ddd;}
 
-.navbar__ul .cbtn .show, .show {display: block;}
+.navbar__ul .cbtn .dropdown-content.show, .show {display: block;}
 
 
 .nostr {   pointer-events:none;   }
